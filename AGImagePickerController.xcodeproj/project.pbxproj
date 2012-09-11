@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F6BF7315FF23DF00207B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F6BF7215FF23DF00207B41 /* Foundation.framework */; };
+		17F6BF7815FF23DF00207B41 /* AGImagePickerController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17F6BF7715FF23DF00207B41 /* AGImagePickerController.h */; };
+		17F6BF7A15FF23DF00207B41 /* AGImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF7915FF23DF00207B41 /* AGImagePickerController.m */; };
+		17F6BF9815FF242E00207B41 /* AGImagePickerController+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF8415FF242E00207B41 /* AGImagePickerController+Constants.m */; };
+		17F6BF9915FF242E00207B41 /* AGIPCAlbumsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF8B15FF242E00207B41 /* AGIPCAlbumsController.m */; };
+		17F6BF9A15FF242E00207B41 /* AGIPCAssetsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF8F15FF242E00207B41 /* AGIPCAssetsController.m */; };
+		17F6BF9B15FF242E00207B41 /* AGIPCGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF9115FF242E00207B41 /* AGIPCGridCell.m */; };
+		17F6BF9C15FF242E00207B41 /* AGIPCGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF9315FF242E00207B41 /* AGIPCGridItem.m */; };
+		17F6BF9D15FF242E00207B41 /* AGIPCToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF9515FF242E00207B41 /* AGIPCToolbarItem.m */; };
+		17F6BF9E15FF242E00207B41 /* ALAsset+AGIPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF9715FF242E00207B41 /* ALAsset+AGIPC.m */; };
+		17F6BFB915FF276E00207B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F6BFB815FF276E00207B41 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17F6BF6D15FF23DF00207B41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				17F6BF7815FF23DF00207B41 /* AGImagePickerController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17F6BF6F15FF23DF00207B41 /* libAGImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAGImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F6BF7215FF23DF00207B41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17F6BF7615FF23DF00207B41 /* AGImagePickerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGImagePickerController-Prefix.pch"; sourceTree = "<group>"; };
+		17F6BF7715FF23DF00207B41 /* AGImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGImagePickerController.h; sourceTree = "<group>"; };
+		17F6BF7915FF23DF00207B41 /* AGImagePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGImagePickerController.m; sourceTree = "<group>"; };
+		17F6BF8315FF242E00207B41 /* AGImagePickerController+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGImagePickerController+Constants.h"; sourceTree = "<group>"; };
+		17F6BF8415FF242E00207B41 /* AGImagePickerController+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGImagePickerController+Constants.m"; sourceTree = "<group>"; };
+		17F6BF8515FF242E00207B41 /* AGIPC-Checkmark-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AGIPC-Checkmark-iPad.png"; sourceTree = "<group>"; };
+		17F6BF8615FF242E00207B41 /* AGIPC-Checkmark-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AGIPC-Checkmark-iPhone.png"; sourceTree = "<group>"; };
+		17F6BF8715FF242E00207B41 /* AGIPC-Checkmark-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AGIPC-Checkmark-iPhone@2x.png"; sourceTree = "<group>"; };
+		17F6BF8815FF242E00207B41 /* AGIPCAlbumsController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGIPCAlbumsController_iPad.xib; sourceTree = "<group>"; };
+		17F6BF8915FF242E00207B41 /* AGIPCAlbumsController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGIPCAlbumsController_iPhone.xib; sourceTree = "<group>"; };
+		17F6BF8A15FF242E00207B41 /* AGIPCAlbumsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCAlbumsController.h; sourceTree = "<group>"; };
+		17F6BF8B15FF242E00207B41 /* AGIPCAlbumsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCAlbumsController.m; sourceTree = "<group>"; };
+		17F6BF8C15FF242E00207B41 /* AGIPCAssetsController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGIPCAssetsController_iPad.xib; sourceTree = "<group>"; };
+		17F6BF8D15FF242E00207B41 /* AGIPCAssetsController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGIPCAssetsController_iPhone.xib; sourceTree = "<group>"; };
+		17F6BF8E15FF242E00207B41 /* AGIPCAssetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCAssetsController.h; sourceTree = "<group>"; };
+		17F6BF8F15FF242E00207B41 /* AGIPCAssetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCAssetsController.m; sourceTree = "<group>"; };
+		17F6BF9015FF242E00207B41 /* AGIPCGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCGridCell.h; sourceTree = "<group>"; };
+		17F6BF9115FF242E00207B41 /* AGIPCGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCGridCell.m; sourceTree = "<group>"; };
+		17F6BF9215FF242E00207B41 /* AGIPCGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCGridItem.h; sourceTree = "<group>"; };
+		17F6BF9315FF242E00207B41 /* AGIPCGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCGridItem.m; sourceTree = "<group>"; };
+		17F6BF9415FF242E00207B41 /* AGIPCToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCToolbarItem.h; sourceTree = "<group>"; };
+		17F6BF9515FF242E00207B41 /* AGIPCToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCToolbarItem.m; sourceTree = "<group>"; };
+		17F6BF9615FF242E00207B41 /* ALAsset+AGIPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+AGIPC.h"; sourceTree = "<group>"; };
+		17F6BF9715FF242E00207B41 /* ALAsset+AGIPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+AGIPC.m"; sourceTree = "<group>"; };
+		17F6BFA015FF249300207B41 /* AGImagePickerController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGImagePickerController-Prefix.pch"; sourceTree = "<group>"; };
+		17F6BFB815FF276E00207B41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17F6BF6C15FF23DF00207B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F6BFB915FF276E00207B41 /* UIKit.framework in Frameworks */,
+				17F6BF7315FF23DF00207B41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F6BF6415FF23DF00207B41 = {
+			isa = PBXGroup;
+			children = (
+				17F6BFB815FF276E00207B41 /* UIKit.framework */,
+				17F6BF7415FF23DF00207B41 /* AGImagePickerController */,
+				17F6BF7115FF23DF00207B41 /* Frameworks */,
+				17F6BF7015FF23DF00207B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17F6BF7015FF23DF00207B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17F6BF6F15FF23DF00207B41 /* libAGImagePickerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17F6BF7115FF23DF00207B41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17F6BF7215FF23DF00207B41 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17F6BF7415FF23DF00207B41 /* AGImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				17F6BFA015FF249300207B41 /* AGImagePickerController-Prefix.pch */,
+				17F6BF8315FF242E00207B41 /* AGImagePickerController+Constants.h */,
+				17F6BF8415FF242E00207B41 /* AGImagePickerController+Constants.m */,
+				17F6BF8515FF242E00207B41 /* AGIPC-Checkmark-iPad.png */,
+				17F6BF8615FF242E00207B41 /* AGIPC-Checkmark-iPhone.png */,
+				17F6BF8715FF242E00207B41 /* AGIPC-Checkmark-iPhone@2x.png */,
+				17F6BF8815FF242E00207B41 /* AGIPCAlbumsController_iPad.xib */,
+				17F6BF8915FF242E00207B41 /* AGIPCAlbumsController_iPhone.xib */,
+				17F6BF8A15FF242E00207B41 /* AGIPCAlbumsController.h */,
+				17F6BF8B15FF242E00207B41 /* AGIPCAlbumsController.m */,
+				17F6BF8C15FF242E00207B41 /* AGIPCAssetsController_iPad.xib */,
+				17F6BF8D15FF242E00207B41 /* AGIPCAssetsController_iPhone.xib */,
+				17F6BF8E15FF242E00207B41 /* AGIPCAssetsController.h */,
+				17F6BF8F15FF242E00207B41 /* AGIPCAssetsController.m */,
+				17F6BF9015FF242E00207B41 /* AGIPCGridCell.h */,
+				17F6BF9115FF242E00207B41 /* AGIPCGridCell.m */,
+				17F6BF9215FF242E00207B41 /* AGIPCGridItem.h */,
+				17F6BF9315FF242E00207B41 /* AGIPCGridItem.m */,
+				17F6BF9415FF242E00207B41 /* AGIPCToolbarItem.h */,
+				17F6BF9515FF242E00207B41 /* AGIPCToolbarItem.m */,
+				17F6BF9615FF242E00207B41 /* ALAsset+AGIPC.h */,
+				17F6BF9715FF242E00207B41 /* ALAsset+AGIPC.m */,
+				17F6BF7715FF23DF00207B41 /* AGImagePickerController.h */,
+				17F6BF7915FF23DF00207B41 /* AGImagePickerController.m */,
+				17F6BF7515FF23DF00207B41 /* Supporting Files */,
+			);
+			path = AGImagePickerController;
+			sourceTree = "<group>";
+		};
+		17F6BF7515FF23DF00207B41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F6BF7615FF23DF00207B41 /* AGImagePickerController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17F6BF6E15FF23DF00207B41 /* AGImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F6BF7D15FF23DF00207B41 /* Build configuration list for PBXNativeTarget "AGImagePickerController" */;
+			buildPhases = (
+				17F6BF6B15FF23DF00207B41 /* Sources */,
+				17F6BF6C15FF23DF00207B41 /* Frameworks */,
+				17F6BF6D15FF23DF00207B41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGImagePickerController;
+			productName = AGImagePickerController;
+			productReference = 17F6BF6F15FF23DF00207B41 /* libAGImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17F6BF6615FF23DF00207B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Lasse Pedersen";
+			};
+			buildConfigurationList = 17F6BF6915FF23DF00207B41 /* Build configuration list for PBXProject "AGImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17F6BF6415FF23DF00207B41;
+			productRefGroup = 17F6BF7015FF23DF00207B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17F6BF6E15FF23DF00207B41 /* AGImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17F6BF6B15FF23DF00207B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F6BF7A15FF23DF00207B41 /* AGImagePickerController.m in Sources */,
+				17F6BF9815FF242E00207B41 /* AGImagePickerController+Constants.m in Sources */,
+				17F6BF9915FF242E00207B41 /* AGIPCAlbumsController.m in Sources */,
+				17F6BF9A15FF242E00207B41 /* AGIPCAssetsController.m in Sources */,
+				17F6BF9B15FF242E00207B41 /* AGIPCGridCell.m in Sources */,
+				17F6BF9C15FF242E00207B41 /* AGIPCGridItem.m in Sources */,
+				17F6BF9D15FF242E00207B41 /* AGIPCToolbarItem.m in Sources */,
+				17F6BF9E15FF242E00207B41 /* ALAsset+AGIPC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17F6BF7B15FF23DF00207B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17F6BF7C15FF23DF00207B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17F6BF7E15FF23DF00207B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AGImagePickerController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGImagePickerController/AGImagePickerController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17F6BF7F15FF23DF00207B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AGImagePickerController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGImagePickerController/AGImagePickerController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17F6BF6915FF23DF00207B41 /* Build configuration list for PBXProject "AGImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F6BF7B15FF23DF00207B41 /* Debug */,
+				17F6BF7C15FF23DF00207B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F6BF7D15FF23DF00207B41 /* Build configuration list for PBXNativeTarget "AGImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F6BF7E15FF23DF00207B41 /* Debug */,
+				17F6BF7F15FF23DF00207B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17F6BF6615FF23DF00207B41 /* Project object */;
+}
