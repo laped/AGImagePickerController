@@ -18,6 +18,7 @@
 		17F6BF9D15FF242E00207B41 /* AGIPCToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF9515FF242E00207B41 /* AGIPCToolbarItem.m */; };
 		17F6BF9E15FF242E00207B41 /* ALAsset+AGIPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6BF9715FF242E00207B41 /* ALAsset+AGIPC.m */; };
 		17F6BFB915FF276E00207B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F6BFB815FF276E00207B41 /* UIKit.framework */; };
+		17F6BFBF15FF291400207B41 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F6BFBE15FF291400207B41 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,8 +61,8 @@
 		17F6BF9515FF242E00207B41 /* AGIPCToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCToolbarItem.m; sourceTree = "<group>"; };
 		17F6BF9615FF242E00207B41 /* ALAsset+AGIPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+AGIPC.h"; sourceTree = "<group>"; };
 		17F6BF9715FF242E00207B41 /* ALAsset+AGIPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+AGIPC.m"; sourceTree = "<group>"; };
-		17F6BFA015FF249300207B41 /* AGImagePickerController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGImagePickerController-Prefix.pch"; sourceTree = "<group>"; };
 		17F6BFB815FF276E00207B41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17F6BFBE15FF291400207B41 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F6BFBF15FF291400207B41 /* AssetsLibrary.framework in Frameworks */,
 				17F6BFB915FF276E00207B41 /* UIKit.framework in Frameworks */,
 				17F6BF7315FF23DF00207B41 /* Foundation.framework in Frameworks */,
 			);
@@ -80,6 +82,7 @@
 		17F6BF6415FF23DF00207B41 = {
 			isa = PBXGroup;
 			children = (
+				17F6BFBE15FF291400207B41 /* AssetsLibrary.framework */,
 				17F6BFB815FF276E00207B41 /* UIKit.framework */,
 				17F6BF7415FF23DF00207B41 /* AGImagePickerController */,
 				17F6BF7115FF23DF00207B41 /* Frameworks */,
@@ -106,7 +109,6 @@
 		17F6BF7415FF23DF00207B41 /* AGImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				17F6BFA015FF249300207B41 /* AGImagePickerController-Prefix.pch */,
 				17F6BF8315FF242E00207B41 /* AGImagePickerController+Constants.h */,
 				17F6BF8415FF242E00207B41 /* AGImagePickerController+Constants.m */,
 				17F6BF8515FF242E00207B41 /* AGIPC-Checkmark-iPad.png */,
